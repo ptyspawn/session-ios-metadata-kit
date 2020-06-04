@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint SignalMetadataKit.podspec' to ensure this is a
+# Be sure to run `pod lib lint SessionMetadataKit.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -39,7 +39,7 @@ A Swift & Objective-C library used by other Session libraries.
   s.prefix_header_file = 'SignalMetadataKit/SMKPrefix.h'
   s.xcconfig = { 'OTHER_CFLAGS' => '$(inherited) -DSQLITE_HAS_CODEC' }
 
-  s.resources = ["SignalMetadataKit/Resources/Certificates/*"]
+  #s.resources = ["SignalMetadataKit/Resources/Certificates/*"]
 
   s.dependency 'AxolotlKit'
   s.dependency 'CocoaLumberjack'
