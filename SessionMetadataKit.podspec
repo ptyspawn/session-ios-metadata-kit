@@ -18,7 +18,7 @@ A Swift & Objective-C library used by other Session libraries.
   s.homepage         = "https://github.com/loki-project/session-ios-metadata-kit"
   s.license          = 'GPLv3'
   s.author           = { "Niels Andriesse" => "niels@loki.network" }
-  s.source           = { :git => "https://github.com/loki-project/session-ios-metadata-kit.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/loki-project/session-ios-metadata-kit.git", :tag => "#{s.version}" }
   s.social_media_url = 'https://getsession.org/'
 
   s.platform     = :ios, '10.0'
